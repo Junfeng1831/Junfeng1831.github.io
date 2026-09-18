@@ -1,17 +1,18 @@
 # main links links
+# main links
 main:
   - title: "About Me"
-    url: "/#about-me"
+    url: "#about-me"
 
   - title: "Educations"
-    url: "/#-educations"
+    url: "#education"
 
   - title: "Working experience"
-    url: "/#-Working-experience"
+    url: "#working-experience"
 
   - title: "Papers"
-    url: "/#-Papers"
+    url: "#papers"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "#honors-and-awards"
 
