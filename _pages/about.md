@@ -52,12 +52,12 @@ I worked on AI-driven computer vision tasks, including object detection, image r
 *Scientific Journal of Intelligent Systems Research(IEEE), 2022*.  
 [[Paper](https://arxiv.org/abs/2404.16561)] 
 
-### [Ongoing Project] Any-Step Dynamics Models for Long-Horizon Goal Relabeling in Goal-Conditioned Reinforcement Learning
-This project studies model-based goal relabeling for sparse-reward goal-conditioned reinforcement learning (GCRL). Existing relabeling methods often rely on future states actually observed in trajectories, which may bias learning toward locally reachable goals and limit their effectiveness in long-horizon tasks.
+### [Ongoing Project] Any-Step Dynamics Models for Long-Horizon offline Goal-Conditioned Reinforcement Learning 
+In Offline Goal-Conditioned Reinforcement Learning (Offline GCRL), long-horizon reasoning tasks remain challenging. This project proposed reachability-aware long-horizon prediction. Although Any-Step Dynamics Models can directly predict future goals at arbitrary horizons while avoiding recursive prediction error, the generated goals may not be reachable from the current state within the specified horizon, especially in environments with complex topology.
 
-To address this issue, we explore Any-Step Dynamics Models (ADM), which directly predict future states at arbitrary time horizons. These model-imagined future states are then used as relabeled goals, aiming to improve the stability and effectiveness of future-goal generation.
+To address this issue, we verify the horizon-consistent reachability of generated goals using both explicit state-space constraints and implicit temporal structure. In particular, we leverage TempDATA-style temporal representations to capture latent reachability information that cannot be reliably inferred from geometric distance alone.
 
-We are currently evaluating this method on long-horizon reasoning benchmarks such as PointMaze, AntMaze, and HumanoidMaze, with a focus on whether ADM-based relabeling can improve long-horizon goal reachability, trajectory stitching, and learning under sparse rewards.
+We are currently evaluating our method on long-horizon navigation benchmarks, including PointMaze, AntMaze, and HumanoidMaze, with a particular focus on whether reachability-aware prediction can improve the reliability of long-horizon goal generation and overall goal-reaching performance.
 
 
 # 🏅 Honors and Awards
