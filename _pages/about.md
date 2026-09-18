@@ -18,7 +18,7 @@ My research interests include **Machine Learning**, **Reinforcement Learning**, 
 
 # 🔥 News
 
-...
+2023—present，I am collaborating with [Haonan Wang](https://haonanwang628.github.io/) on various projects for AI domain.
 
 # 🎓 Education
 
